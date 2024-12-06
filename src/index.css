@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.portfolio-swiper {
+  padding: 20px 0 40px 0;
+}
+
+.portfolio-swiper .swiper-pagination-bullet {
+  background: #db2777;
+}
+
+.portfolio-swiper .swiper-button-next,
+.portfolio-swiper .swiper-button-prev {
+  color: #db2777;
+}
+
+.portfolio-swiper .swiper-button-next:after,
+.portfolio-swiper .swiper-button-prev:after {
+  font-size: 24px;
+  font-weight: bold;
+}
